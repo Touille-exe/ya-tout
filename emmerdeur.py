@@ -56,25 +56,35 @@ def menu():
     choix = str(input("1, 2, 3, 4 ou 5 ?"))
 
     if choix == "1":
-        choix_2 = False
-        if input("Ouvrir une app") == "oui" :
-            print("  1 = Bloc-Note\n  2 = Google messages\n  3 = WhatsApp\n  4 = Annuler")
-            choix_2 = input("1, 2, 3 ou 4 ?")
+        print("  1 = Bloc-Note\n  2 = Google messages\n  3 = WhatsApp\n  4 = Bas nan\n  5 = Fermer")
+        choix_2 = input("1, 2, 3 ou 4 ?")
 
 
-        quoui = input("Quel message ?")
-        nombre = input("En combien de fois ?")
+        quoui = str(input("Quel message ?"))
+        nombre = int(input("En combien de fois ?"))
 
         if choix_2 == "1":
-            ouvrir_app("notepad")
+            with open('fichier.txt', "w+") as file:
+                for y in range(nombre):
+                    file.write(quoui)
+                    file.write("\n")
+                    print(y)
+                file.close()
+            if str(input("ouvrir le fichier ?")) == "oui":
+                ouvrir_app("notepad fichier.txt")
+
         elif choix_2 == "2":
             ouvrir("https;//messages.google.com/web/")
+            spam_2(quoui, nombre)
         elif choix_2 == "3":
             ouvrir("https;//web.whatsapp.com/")
+            spam_2(quoui, nombre)
+        elif choix_2 == "4":
+            spam_2(quoui, nombre)
         elif choix_2 == "4":
             return
+        return
 
-        spam_2(quoui, nombre)
 
     elif choix == "2":
         perssonne = input("A qui ?")

@@ -42,9 +42,6 @@ def menu():
     Entree = tk.Entry(fenetre)
     Entree.grid(row=2, column=0, columnspan=3, padx=5, pady=5)
 
-    bouton_valider = tk.Button(fenetre, text="Valider", command=lambda: mettre_choix(1))
-    bouton_valider.grid(row=2, column=3)
-
     # Fonction pour mettre à jour l'affichage et gérer les étapes
     def mise_a_jour():
         global texte, etape, personne, quoi, combien_de_messages, choix

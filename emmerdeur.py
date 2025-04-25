@@ -52,7 +52,7 @@ def spam_2(quoi, combien_de_messages):
     pass
 
 def menu():
-    print("  1 = spam txt\n  2 = spam whatsapp\n  3 = coo du curseur\n  4 = Ouvrir une App\n  5 = Annuler")
+    print("  1 = Spam txt\n  2 = Spam whatsapp\n  3 = Coo du curseur\n  4 = Ouvrir une App\n  5 = Couleur du pixel\n  6 = Annuler")
     choix = str(input("1, 2, 3, 4 ou 5 ?"))
 
     if choix == "1":
@@ -107,5 +107,11 @@ def menu():
             ouvrir("https;//web.whatsapp.com/")
         elif choix_2 == "4":
             return
+
+    elif choix == "5":
+        time.sleep(5)
+        xxx, yyy = pyautogui.position()
+        couleur_pixel = pyautogui.pixel(xxx, yyy)
+        print(f"La couleur du pixel est : {couleur_pixel}")
 
 menu()

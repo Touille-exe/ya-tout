@@ -51,9 +51,19 @@ def spam_2(quoi, combien_de_messages):
         pass
     pass
 
+def spam_3(combien_de_messages):
+    time.sleep(3)
+    for y in range(int(combien_de_messages)):
+        with pyautogui.hold("ctrlleft"):
+            pyautogui.press("v")
+        pyautogui.press("enter")
+        pass
+    pass
+
+
 def menu():
-    print("  1 = Spam txt\n  2 = Spam whatsapp\n  3 = Coo du curseur\n  4 = Ouvrir une App\n  5 = Couleur du pixel\n  6 = Annuler")
-    choix = str(input("1, 2, 3, 4 ou 5 ?"))
+    print("  1 = Spam txt\n  2 = Spam whatsapp\n  3 = Coo du curseur\n  4 = Ouvrir une App\n  5 = Couleur du pixel\n  6 = copier coller spam")
+    choix = str(input("1, 2, 3, 4, 5 ou 6 ?"))
 
     if choix == "1":
         print("  1 = Bloc-Note\n  2 = Google messages\n  3 = WhatsApp\n  4 = Bas nan\n  5 = Fermer")
@@ -113,5 +123,9 @@ def menu():
         xxx, yyy = pyautogui.position()
         couleur_pixel = pyautogui.pixel(xxx, yyy)
         print(f"La couleur du pixel est : {couleur_pixel}")
+
+    elif choix == "6":
+        nombre = input("Combien de messages ?")
+        spam_3(nombre)
 
 menu()

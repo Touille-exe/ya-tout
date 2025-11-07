@@ -1,8 +1,8 @@
-import time
-import pyautogui
+import time, keyboard
 
 time.sleep(1)
 while True:
-    with pyautogui.hold("e"):
-        time.sleep(0.5)
+    keyboard.press("e")
+    time.sleep(0.5)
+    keyboard.release("e")
     time.sleep(0.05)

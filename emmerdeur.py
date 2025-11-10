@@ -21,7 +21,8 @@ def trouver_les_coo():
     time.sleep(10)
     x, y = pyautogui.position()
     print(f"Les coordonnées du curseur sont : x = {x}, y = {y}")
-    pyautogui.click(774, 1047)
+    with pyautogui.hold("alt"):
+        pyautogui.press("tab")
     menu()
     pass
 

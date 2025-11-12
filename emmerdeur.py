@@ -120,10 +120,17 @@ def menu():
             return
 
     elif choix == "5":
-        time.sleep(5)
+        print("  1 = pixel sur la souris\n  2 = Pixel donné")
+        choix = input("1 où 2 ?")
+        if choix == "1":
+            time.sleep(5)
+        elif choix == "2":
+            xx = int(input("En x ?"))
+            yy = int(input("En y ?"))
+            pyautogui.moveTo(xx, yy, 2)
         xxx, yyy = pyautogui.position()
         couleur_pixel = pyautogui.pixel(xxx, yyy)
-        print(f"La couleur du pixel est : {couleur_pixel}")
+        print(f"La couleur du pixel {xxx};{yyy} est : {couleur_pixel}")
 
     elif choix == "6":
         nombre = input("Combien de messages ?")

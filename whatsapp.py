@@ -1,5 +1,6 @@
 import pyautogui
 import time
+import pyperclip
 
 class whatsapp:
     def __init__(self):
@@ -17,8 +18,11 @@ def ouvrir_whatsapp():
 
 
 def rechercher_whatsapp(qui):
+    pyperclip.copy(qui)
     pyautogui.click(whatsapp.barre_de_recherche)
-    pyautogui.typewrite(qui)
+    with pyautogui.hold('ctrl'):
+        pyautogui.press('v')
 
-ouvrir_whatsapp()
-rechercher_whatsapp("")
+#ouvrir_whatsapp()
+#time.sleep(5)
+#rechercher_whatsapp("")

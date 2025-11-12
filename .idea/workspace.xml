@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="29cde3e6-682a-425e-92b2-29e3d5714617" name="Changes" comment="add afk retail tycoon 2 bug fixes7&#10;+ update ancien dossier">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ya-tout.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ya-tout.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/emmerdeur.py" beforeDir="false" afterPath="$PROJECT_DIR$/emmerdeur.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emmerdeur_graphique_v2.py" beforeDir="false" afterPath="$PROJECT_DIR$/emmerdeur_graphique_v2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/whatsapp.py" beforeDir="false" afterPath="$PROJECT_DIR$/whatsapp.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,12 +33,12 @@
     &quot;assignee&quot;: &quot;Touille-exe&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Touille-exe/ya-tout.git",
-    "accountId": "0278467d-42c3-470c-9819-83d204980530"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Touille-exe/ya-tout.git&quot;,
+    &quot;accountId&quot;: &quot;e0ea6e57-7bed-4583-aa18-bf0a9371724e&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 6
@@ -56,6 +55,7 @@
   "keyToString": {
     "Python.emmerdeur graphique.executor": "Run",
     "Python.emmerdeur.executor": "Run",
+    "Python.emmerdeur_graphique_v2.executor": "Run",
     "Python.sons zelda.executor": "Run",
     "Python.whatsapp.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -75,7 +75,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-4e2b1448bda8-9a97661f3031-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.27397.106" />
+        <option value="bundled-python-sdk-164cda30dcd9-0af03a5fa574-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.26830.99" />
       </set>
     </attachedChunks>
   </component>

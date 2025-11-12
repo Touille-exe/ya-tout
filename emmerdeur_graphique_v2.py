@@ -1,32 +1,48 @@
-import whatsapp
 import time
-import sdl2
-import sdl2.ext
+import pygame
+import whatsapp
 
 class Menu:
     def __init__(self):
-        # interface graphique
-        sdl2.ext.init()
-        self.fenetre = sdl2.ext.Window("L'app de touille", size=(800, 600))
-        self.fenetre.show()
-        self.rendu = sdl2.ext.Renderer(self.fenetre)
-        self.gestionnaire_police = sdl2.ext.FontManager(font_path="C:\\Windows\\Fonts\\arial.ttf", size=24)
+        pygame.init()
 
-    def
+        # Couleurs
+        self.rouge_de_lecriture = (197, 15, 31)
+        self.vert_de_lecriture = (21, 171, 12)
+        self.gris_du_fond = (121, 125, 127)
+        self.blanc = (255, 255, 255)
+        self.noir = (0, 0, 0)
+        self.rouge = (255, 0, 0)
+
+        # Fenêtre et icône
+        largeur, hauteur = 800, 600
+        self.ecran = pygame.display.set_mode((largeur, hauteur))
+        pygame.display.set_caption('Menu')
+         #icone_image = pygame.image.load("image.png")
+         #pygame.display.set_icon(icone_image)
+
+        # Police d'écriture
+        self.font_1 = pygame.font.SysFont("Comfortaa", 36)
+
+        # Titres
+        self.titre_menu = self.font_1.render("Menu :", True, self.blanc)
+
+
 
 self = Menu()
 
-self.fenetre.show()
 
 boucle = True
 while boucle:
-    for evenement in sdl2.ext.get_events():
-        if evenement.type == sdl2.SDL_QUIT:
-            print("quit")
+
+
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
             boucle = False
 
 
-    self.rendu.present()
+    self.ecran.blit(self.titre_menu, (self.titre_menu.get_rect(center=(400, 30))))
+    
+    pygame.display.flip()
 
-
-sdl2.ext.quit()
+pygame.quit()

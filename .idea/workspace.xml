@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="29cde3e6-682a-425e-92b2-29e3d5714617" name="Changes" comment="add afk retail tycoon 2 bug fixes7&#10;+ update ancien dossier">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emmerdeur.py" beforeDir="false" afterPath="$PROJECT_DIR$/emmerdeur.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/emmerdeur_graphique_v2.py" beforeDir="false" afterPath="$PROJECT_DIR$/emmerdeur_graphique_v2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/whatsapp.py" beforeDir="false" afterPath="$PROJECT_DIR$/whatsapp.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,27 +49,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.emmerdeur graphique.executor": "Run",
-    "Python.emmerdeur.executor": "Run",
-    "Python.emmerdeur_graphique_v2.executor": "Run",
-    "Python.sons zelda.executor": "Run",
-    "Python.whatsapp.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/Touil/PycharmProjects/ya-tout",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "advanced.settings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.emmerdeur graphique.executor&quot;: &quot;Run&quot;,
+    &quot;Python.emmerdeur.executor&quot;: &quot;Run&quot;,
+    &quot;Python.emmerdeur_graphique_v2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.sons zelda.executor&quot;: &quot;Run&quot;,
+    &quot;Python.whatsapp.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Touil/PycharmProjects/ya-tout&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>

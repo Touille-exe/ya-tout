@@ -4,9 +4,9 @@ import threading
 # L'adresse IP du serveur de chat.
 # Si le serveur tourne sur la même machine que le client, utilisez '127.0.0.1' (localhost).
 # Sinon, remplacez par l'adresse IP de la machine où tourne votre serveur.
-HOST = '192.168.1.1'
+HOST = '88.189.46.5'
 # Le port sur lequel le serveur écoute. Doit être le même que celui du serveur.
-PORT = 55559
+PORT = 49001
 
 # Demande le nom d'utilisateur au démarrage du client.
 username = input("Choisissez votre nom d'utilisateur pour le chat : ")

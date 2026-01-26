@@ -34,9 +34,10 @@ class remote_access:
 
 
 
+
 remote_access = remote_access()
 
-def connecttoremoteaccess(host, port, user):
+def connecttoremoteaccess(host, port):
     try:
         remote_access.remoteaccess.connect((host, port))
         print(f"Connecté au serveur {host}:{port} !")
